@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="1200" height="800"
+viewBox="0 0 3 2"
+preserveAspectRatio="xMidYMid">
+  <!--<path d="M 1,0.5 L 3,1 -1,1 Z" stroke="purple" stroke-width="0.05" fill="green" />-->
+  <!--<rect x="0" y="0" width="3" height="2"
+  stroke="blue" fill="none" stroke-width="0.05"/> 
+  --><!--<text x="0.2" y="0.5" font-size="0.4" fill="red">Hello World!</text>--><!--
+  <line x1="0.1" y1="0.7" x2="2.9" y2="0.7"
+  stroke-width="0.05" stroke="blue"/>
+  <ellipse cx="1.5" cy="1.4" rx=".6" ry=".4" fill="rgb(0,255,180)"/>
+  <circle cx="0.4" cy="1.4" r="0.3"
+  fill="magenta" stroke="black" stroke-width="0.03"/>-->
+
+ <defs>
+   	<g id="15shape">
+	<path d= "
+				M 0.75,0
+				L 0.6851,-0.3050
+				M 0,0
+				L 0.6851,-0.3050
+				L 0.5018,-0.5573
+				M 0,0
+				L 0.5018,-0.5573
+				L 0.2317,-0.7132
+				M 0,0
+				L 0.2317,-0.7132
+				L -0.0783,-0.7458
+				M 0,0
+				L -0.0783,-0.7458
+				L -0.375,-0.6495
+        M 0,0
+				L -0.375,-0.6495
+				L -0.6067, -0.4408
+				M 0,0
+				L -0.6067,-0.4408
+				L -0.7336,-0.1559
+				M 0,0
+				L -0.7336,-0.1559
+				L -0.7336,0.1559
+				M 0,0
+				L -0.7336,0.1559
+				L -0.7336,0.1559
+        M 0,0
+				L -0.7336,0.1559
+				L -0.6067,0.4408
+				M 0,0
+				L -0.6067,0.4408
+				L -0.375,0.6495
+				M 0,0
+				L -0.375,0.6495
+				L -0.0783,0.7458
+				M 0,0
+				L -0.0783,0.7458
+				L 0.2317,0.7132
+        M 0,0
+				L 0.2317,0.7132
+				L 0.5018, 0.5573
+				M 0,0
+				L 0.5018,0.5573
+				L 0.6851,0.3050
+				M 0,0
+				L 0.6851,0.3050
+				L 0.75,0
+        M 0,0
+        L 0.75,0
+        L 0.6851,-0.3050
+				Z
+	"/>
+        <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 0 0"
+                          to="360 0 0"
+                          dur="10s"
+                          repeatCount="indefinite"/>
+   </g>
+ </defs>
+
+  
+    
+  <defs>
+    <g id = "plus" stroke = "black">
+    <line x1="1" y1="0.95" x2="2" y2="1.45"
+    stroke-width="0.05" stroke="red"/>
+    <polygon points="1.35,1.9 1.5,1.2 1.65,1.9"
+    fill="blue" stroke="blue" stroke-width="0.02"/>
+    <!--<polygon points="0.8,0.95 1,0.95 0.82666,0.97666"
+    fill="none" stroke="rgb(0,0,0)" stroke-width="0.01"/>-->
+    
+     </g>
+  </defs>
+  <use xlink:href = "#plus" />
+  
+  <!--<use xlink:href = "#plus" transform ="translate(-0.5,-0.5),scale(0.75,0.75)" />-->
+  <!--<line x1="1.25" y1="1.9" x2="1.45" y2="1.9" stroke-width="0.05" stroke="black" />-->
+  <!--<polygon points="1.35,1.9 1.25,1.9 1.36333,191333"
+         fill="green" stroke="black" stroke-width="0.02" />-->
+  
+  <line x1="0.3" y1="0.35" x2="0.9" y2="0.65"
+  stroke-width="0.03" stroke="red"/>
+  <polygon points="0.45,1 0.6,0.5 0.75,1"
+  fill="rgb(186,85,211)" stroke="rgb(186,85,211)" stroke-width="0.02"/>
+  
+  <line x1="2.0" y1="0.25" x2="2.6" y2="0.55"
+  stroke-width="0.03" stroke="red"/>
+  <polygon points="2.15,0.9 2.3,0.4 2.45,0.9"
+  fill="rgb(0,128,0)" stroke="rgb(0,128,0)" stroke-width="0.02"/>
+  
+<use xlink:href = "#15shape" transform=" translate(1,0.95)   scale(0.3)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#15shape" transform=" translate(2,1.45)   scale(0.3)"
+fill="none" stroke-width = "0.01" stroke="black" />
+  <use xlink:href = "#15shape" transform=" translate(0.3,0.35)   scale(0.2)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#15shape" transform=" translate(0.9, 0.65)   scale(0.2)"
+fill="none" stroke-width = "0.01" stroke="black" />  
+<use xlink:href = "#15shape" transform=" translate(2,0.25)   scale(0.15)"
+fill="none" stroke-width = "0.01" stroke="black" />
+<use xlink:href = "#15shape" transform=" translate(2.6, 0.55)   scale(0.15)"
+fill="none" stroke-width = "0.01" stroke="black" />
+  
+  <!--<g fill = "none" stroke = "black" stroke-width = "2"
+  transform = "scale(1, -1)">
+  <circle r = "98" />
+  <ellipse cx = "40" cy = "40" rx = "20" ry = "7" />
+  <ellipse cx = "- 40" cy = "40" rx = "20" ry = "7" />
+  <line y1 = "20" y2 = "- 10" />
+  <path d = "M -40, -40 C-30, -50 30, -50 40, -40"
+  stroke-width = "4" />
+  </g>-->
+</svg>
